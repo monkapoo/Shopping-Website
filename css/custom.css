@@ -1,0 +1,559 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+@media screen {
+    body, td, select, textarea, input {
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+}
+/* Fonts
+-------------------------------------------------- */
+ body {
+    color: #5a5a5a;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight:300;
+    font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight:200;
+}
+.nav {
+    font-family: 'Inconsolata', 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing:1px;
+    text-transform: uppercase;
+}
+.dropdown-menu li {
+    font-size: 12px;
+}
+#footer {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+}
+#footer a {
+    color: #f2f2f2;
+}
+#footer a:hover {
+    color: white;
+}
+.btn {
+    font-family: 'inconsolata', 'source sans pro', sans-serif;
+    font-weight:300;
+}
+/* THE FOOTER
+-------------------------------------------------- */
+#footer {
+    width: 100%;
+    color: #f2f2f2;
+    background: #333;
+    padding-top:15px;
+}
+.list-title {
+    font-family: 'inconsolata', 'source sans pro', sans-serif;
+    font-weight: 300;
+    font-size:12px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    padding-bottom:3px;
+    color: rgb(249,244,230);
+}
+#footer h4 {
+    margin-top: 0;
+    line-height:1.3;
+}
+#footer-small {
+    margin-top: 5px;
+    text-align:left;
+}
+.b-corp {
+    margin-top: -16px;
+    padding-top:0;
+    padding-left: 0px;
+}
+.am-flag {
+    margin-top: 10px;;
+    margin-bottom: -5px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.made-in-bk {
+    margin-left: -30px;
+    margin-top: -1px;
+    font-family: 'inconsolata', 'source sans pro', sans-serif;
+    font-weight: 300;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-size:12px;
+    color: rgb(249,244,230);
+}
+.copyright {
+    margin-top: 20px;
+}
+.email {
+    margin-left: -10px;
+}ad
+.social img {
+    height:18px;
+    padding: 0 5px;
+}
+.social a:focus,
+.social a:hover {
+    text-decoration:none;
+}
+/* THE CART
+-------------------------------------------------- */
+.cart-bar {
+    padding-top: 5px;
+    padding-right: 35px;
+    font-family: 'inconsolata', 'source sans pro', sans-serif;
+    color: #aaa;
+    font-size:12px;
+    text-transform:uppercase;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.cart-bar-cart {
+    text-transform:uppercase;
+}
+.nav-bar-bar {
+    margin-top:px;
+}
+
+/* THE NAVBAR
+-------------------------------------------------- */
+.navbar,
+.navbar-wrapper .navbar {
+    border-radius: 0;
+}
+.navbar-wrapper {
+    position: relative;
+    z-index: 15;
+}
+.navbar-brand {
+    height: 50px;
+    margin-top: 0;
+    padding-top: 11px;
+}
+.nav-right {
+    float:right;
+    padding-right: 0;
+    margin-right: -10px;
+}
+.dropdown-menu {
+  background-color: #000;
+  border: 1px solid #080808;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+.dropdown-menu li > a{
+    color: #cccccc;
+}
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus {
+    color: #333;
+    background-color: #fff;
+}
+/* THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+ .carousel {
+    margin-bottom: -60px;
+    /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    margin-top: -40px;
+    padding-top: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+ .carousel-caption {
+    text-shadow: none;
+    z-index: 10;
+    top: 50px;
+    margin: 10px;
+    padding: 0 40px;
+}
+
+.carousel-caption h1 {
+    font-size: 80px;
+    font-weight:200;
+    line-height:1;
+}
+
+.carousel-caption-shade {
+    color: #fff;
+    background-color: rgba(250,250,250,.3)
+}
+
+.carousel-indicators {
+  z-index: 13;
+}
+/* Declare heights because of positioning of img element */
+ .carousel .item {
+    min-height:600px;
+    min-width:100%;
+    background-color: #f2f2f2;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:500px;
+}
+.carousel-inner .item {
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.ad1 {
+    background: url(../images/img1.jpg) no-repeat center center;
+}
+.ad2 {
+    background: url(../images/img2.jpg) no-repeat center top;
+}
+
+.ad3 {
+    background: url(../images/img3.jpg) no-repeat center top;
+}
+
+.ad4 {
+    background: url(../images/img4.jpg) no-repeat center top;
+}
+.ad5 {
+    background: url(../images/banner/img5.jpg) no-repeat center top;
+}
+
+
+
+.shadow-layer {
+    background-color:none;
+    background-color: rgba(0,0,0,0.3);
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.shadow-layer:hover {
+    background-color: rgba(0, 0, 0, 0.0);
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+ .marketing {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* Center align the text within the three columns below the carousel */
+ .marketing .col-sm-4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.marketing h2 {
+    font-weight: normal;
+}
+.marketing .col-sm-4 p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Product Thumbnails
+--------------------------------------------------*/
+.product-thumb {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.caption-overlay {
+}
+
+.caption-overlay img {
+	max-width: 100%;
+}
+/* Featurettes
+------------------------- */
+ .featurette-divider {
+    margin: 80px 0;
+    /* Space out the Bootstrap <hr> more */
+}
+/* Thin out the marketing headings */
+ .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+/* Buttons
+--------------------------------*/
+.btn-clear {
+    color: #fff;
+    background-color: transparent;
+    border: 3px solid #fff;
+}
+.btn-clear:hover {
+    color: #333;
+    background-color: #fff;
+    border: 3px solid #fff;
+}
+.btn-clear:focus,
+.btn-clear:active, {
+    color: #fff;
+    background-color: transparent;
+    border: 3px solid #fff;
+}
+.btn-dark {
+    font-weight: 400;
+    color: #fff;
+    background-color: #444;
+    border: 1px solid #444;
+}
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #444;
+    background-color: #fff;
+    border: 3px solid #444;
+}
+.btn-clear-on-white {
+    color: #333;
+    background-color: transparent;
+    border: 1px solid #c1c1c1;
+}
+.btn-clear-on-white:hover,
+.btn-clear-on-white:focus {
+    color: #333;
+    background-color: #f1f1f1;
+    border: solid 1px #c1c1c1;
+}
+.btn-clear-on-white:active {
+    color: #fff;
+    background-color: #333;
+}
+.btn-group .btn .
+.input-group button {
+    margin-left: 5px;
+}
+
+
+/* General Help Classes
+-------------------------------------------------- */
+ .pull-up {
+    margin-top: -50px;
+}
+.breathingroom {
+    margin-bottom: 30px;
+}
+.giveroom {
+    padding-top: 75px;
+}
+.givesomeroom {
+    padding-top: 35px;
+}
+strong {
+    font-weight:400;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+    /* Remove the edge padding needed for mobile */
+    .marketing {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 20px;
+    }
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 0;
+    }
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+    .featurette-heading {
+        font-size: 50px;
+    }
+  .carousel-caption h1{
+     font-size: 60px;
+  }
+}
+@media (max-width: 991px) {
+    .carousel .item {
+    min-height:500px;
+    }
+}
+@media (min-width: 992px) {
+    /* Narrow Body */
+    .container {
+        width: 860px;
+    }
+    .featurette-heading {
+        margin-top: 120px;
+    }
+  .carousel-caption h1{
+     font-size: 70px;
+  }
+}
+@media (max-width: 767px) {
+    .carousel .item {
+    min-height:400px;
+    }
+    .marketing {
+        text-align:center;
+    }
+    .nav-right {
+        float:none;
+    }
+    .carousel-caption {
+        padding: 0;
+    }
+    .carousel-caption h1 {
+        font-size:40px;
+    }
+    .cart-bar {
+    font-size: 16px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    }
+}
+#cart-link {
+    color:#c1c1c1;
+}
+#server_commands{
+display:none;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+.carousel-control.left {
+  background-image: none;
+}
+.carousel-control.right {
+  background-image: none;
+}
+
+.img-40 {
+    width:40%;
+}
+
+@media (max-width:767px){
+     .navbar-brand {
+          width:40px;
+          margin-left: -5px;
+ }
+   .cart-bar{
+       margin-right: 0;
+       padding-right: 10px;
+ }
+  .cart-bar a{
+     color: #fff;
+ }
+}
+
+#contactfo {
+    display: none;
+}
+
+.ribbon {
+  background-color: rgb(211, 84, 0);
+  background-color: rgba(211, 84, 0,0.7);
+  overflow: hidden;
+  white-space: nowrap;
+  /* top left corner */
+  position: fixed;
+  right: -55px;
+  top: 55px;
+  z-index: 999;
+  /* 45 deg ccw rotation */
+  -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+       -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+  /* shadow */
+  -webkit-box-shadow: 0 0 10px #222;
+     -moz-box-shadow: 0 0 10px #222;
+          box-shadow: 0 0 10px #222;
+}
+.ribbon a {
+  border: 1px solid rgba(192, 57, 43,0.7);
+  cursor: default;
+  color: #fff;
+  display: block;
+  font: 700 80% Inconsolata, monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 1px 0;
+  padding: 10px 60px;
+  text-align: center;
+  text-decoration: none;
+  /* shadow */
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(250,250,250,0.004);
+}
+
+@media (max-width:467px) {
+	.ribbon {
+	  background-color: rgba(211, 84, 0,0.7);
+	  width: 100%;
+	  /* top left corner */
+	  position: static;
+	  right: 0;
+	  top: 0;
+	  /* 45 deg ccw rotation */
+	  -webkit-transform: rotate(0);
+	     -moz-transform: rotate(0);
+	      -ms-transform: rotate(0);
+	       -o-transform: rotate(0);
+	          transform: rotate(0);
+	  /* shadow */
+	  -webkit-box-shadow: 0 0 10px #222;
+	     -moz-box-shadow: 0 0 10px #222;
+	          box-shadow: 0 0 10px #222;
+	}
+	.ribbon a {
+	  border: 1px solid rgba(192, 57, 43,0.7);
+	  color: #fff;
+      cursor: default;
+	  display: block;
+	  font: 700 90% Inconsolata, monospace;
+	  text-transform: uppercase;
+	  letter-spacing: 1px;
+	  margin: 0;
+	  padding: 10px 60px;
+	  text-align: center;
+	  text-decoration: none;
+	  /* shadow */
+	  -webkit-font-smoothing: antialiased;
+	  text-shadow: 1px 1px 1px rgba(250,250,250,0.004);
+	}
+}
